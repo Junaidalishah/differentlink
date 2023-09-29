@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding-top: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: cyan;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+li {
+  float: left;
+}
+li a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+}
+li a:hover {
+  background-color: red;
+}
+.active {
+  background-color: chartreuse;
+}
+.about {
+  padding: 50px;
+  background-color: #474e5d;
+  color: white;
+  text-align: center;
+}
